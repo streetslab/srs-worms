@@ -2,7 +2,14 @@
 Package for processing and analysing multi-channel SRS worm images.
 
 ## Requirements
-TBD.
+Please see the `requirements.txt` file for the required packages. You can install them using the following command:
+```
+pip install -r requirements.txt
+```
+
+Also, a dedicated ImageJ installation is required for the stitching of the images.
+
+
 
 ## Data folder structure
 There should be invididual experiment folders. For simplicity, it is recommended that all experiment folders are managed under the same project folder:
