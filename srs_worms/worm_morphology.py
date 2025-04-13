@@ -2,8 +2,6 @@ import numpy as np
 import cv2
 from scipy.interpolate import splprep
 from scipy.interpolate import splev
-from skimage.morphology import erosion
-from skimage.morphology import disk
 from skimage.measure import label
 
 def get_border_path(mask):

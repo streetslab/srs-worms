@@ -1,6 +1,11 @@
 # ignore ALL .log files
 *.log
 
+# ignore python builds
+dist/
+*.egg-info/
+build/
+
 # ignore ALL files in ANY directory named "temp"
 temp/
 __pycache__/
